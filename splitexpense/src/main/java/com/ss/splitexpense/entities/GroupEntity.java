@@ -1,15 +1,19 @@
-package com.ss.entities;
+package com.ss.splitexpense.entities;
 
-// User.java
+// GroupEntity.java
 import jakarta.persistence.*;
 import lombok.*;
+import java.util.List;
 
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class GroupEntity {
     @Id @GeneratedValue
     private Long id;
     private String name;
+
+    @ManyToMany
+    private List<User> members;
 }

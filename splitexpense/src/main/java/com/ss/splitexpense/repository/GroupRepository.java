@@ -1,6 +1,6 @@
-package com.ss.repository;
+package com.ss.splitexpense.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.ss.entities.GroupEntity;
+import com.ss.splitexpense.entities.GroupEntity;
 public interface GroupRepository extends JpaRepository<GroupEntity, Long> {}

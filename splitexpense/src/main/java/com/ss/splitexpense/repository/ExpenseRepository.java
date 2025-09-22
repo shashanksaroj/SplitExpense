@@ -1,8 +1,8 @@
-package com.ss.repository;
+package com.ss.splitexpense.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.ss.entities.Expense;
+import com.ss.splitexpense.entities.Expense;
 
 import java.util.List;
 public interface ExpenseRepository extends JpaRepository<Expense, Long> {

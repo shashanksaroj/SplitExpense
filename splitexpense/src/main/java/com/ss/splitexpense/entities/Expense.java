@@ -1,4 +1,4 @@
-package com.ss.entities;
+package com.ss.splitexpense.entities;
 // Expense.java
 import jakarta.persistence.*;
 import lombok.*;

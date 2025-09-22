@@ -1,11 +1,11 @@
-package com.ss.service;
+package com.ss.splitexpense.service;
 // ExpenseService.java
 import org.springframework.stereotype.Service;
 
-import com.ss.entities.Expense;
-import com.ss.entities.User;
-import com.ss.repository.ExpenseRepository;
-import com.ss.repository.GroupRepository;
+import com.ss.splitexpense.entities.Expense;
+import com.ss.splitexpense.entities.User;
+import com.ss.splitexpense.repository.ExpenseRepository;
+import com.ss.splitexpense.repository.GroupRepository;
 
 import java.util.*;
 

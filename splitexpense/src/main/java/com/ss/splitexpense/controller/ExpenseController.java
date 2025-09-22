@@ -1,11 +1,11 @@
-package com.ss.controller;
+package com.ss.splitexpense.controller;
 
 // ExpenseController.java
 import org.springframework.web.bind.annotation.*;
 
-import com.ss.entities.GroupEntity;
-import com.ss.repository.GroupRepository;
-import com.ss.service.ExpenseService;
+import com.ss.splitexpense.entities.GroupEntity;
+import com.ss.splitexpense.repository.GroupRepository;
+import com.ss.splitexpense.service.ExpenseService;
 
 import java.util.*;
 

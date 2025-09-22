@@ -1,6 +1,6 @@
-package com.ss.repository;
+package com.ss.splitexpense.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.ss.entities.User;
+import com.ss.splitexpense.entities.User;
 public interface UserRepository extends JpaRepository<User, Long> {}

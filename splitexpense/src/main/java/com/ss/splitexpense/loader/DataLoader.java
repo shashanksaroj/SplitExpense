@@ -1,15 +1,15 @@
-package com.ss.loader;
+package com.ss.splitexpense.loader;
 
 // DataLoader.java
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import com.ss.entities.Expense;
-import com.ss.entities.GroupEntity;
-import com.ss.entities.User;
-import com.ss.repository.ExpenseRepository;
-import com.ss.repository.GroupRepository;
-import com.ss.repository.UserRepository;
+import com.ss.splitexpense.entities.Expense;
+import com.ss.splitexpense.entities.GroupEntity;
+import com.ss.splitexpense.entities.User;
+import com.ss.splitexpense.repository.ExpenseRepository;
+import com.ss.splitexpense.repository.GroupRepository;
+import com.ss.splitexpense.repository.UserRepository;
 
 import java.util.Arrays;
 
