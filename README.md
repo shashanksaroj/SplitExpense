@@ -140,11 +140,3 @@ src/main/java/com/example/expense/
 
 ---
 
-```
-
----
-
-
-
-Do you want me to do that?
-```
